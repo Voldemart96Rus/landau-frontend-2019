@@ -1,7 +1,3 @@
-// Переопределяем компонент App, чтобы импортировать общие для всех страниц стили
-// _app.tsx - зарезервированный в Next.js файл
-// Подробнее: https://github.com/zeit/next.js/#custom-app
-
 import App, {Container, NextAppContext} from 'next/app';
 import React from 'react';
 

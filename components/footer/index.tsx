@@ -7,12 +7,10 @@ export default function Footer() {
         <footer>
             <section>
                 <h1 className="footer-headers">Офис продаж</h1>
-                <p className="footer-descriptions">
-                +7 (3412) 90-18-64<br/>
-                Ижевск, Лихвинцева, 46<br/>
-                пн — пт: 9:00–20:00, сб: 10:00–17:00,<br/>
-                вс: 10:00–14:00 (по записи)
-                </p>
+                <p className="footer-descriptions">+7 (3412) 90-18-64</p>
+                <p className="footer-descriptions">Ижевск, Лихвинцева, 46</p>
+                <p className="footer-descriptions">пн — пт: 9:00–20:00, сб: 10:00–17:00,</p>
+                <p className="footer-descriptions">вс: 10:00–14:00 (по записи)</p>
             </section>
             <section>
                 <h1 className="footer-headers">Служба сервиса</h1>
