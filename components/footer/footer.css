@@ -1,0 +1,46 @@
+li, ul {
+	list-style-type: none;
+	padding: 0;
+	color: #3A7BE2;;
+	cursor: pointer;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 80px;
+	background: #F8F8F8;
+}
+
+.footer-headers {
+	font-family: Bebas;
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	color: #222D33;
+}
+
+.footer-descriptions {
+	font-size: 18px;
+	line-height: 31px;
+
+	color: #222D33;
+}
+
+.social-network {
+	display: flex;
+}
+
+.social-net {
+	cursor: pointer;
+}
+
+.container-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	width: 54.95px;
+	height: 54.95px;
+	background: #FFFFFF;
+}
