@@ -1,0 +1,122 @@
+.wrap {
+	display: flex;
+	flex-wrap: nowrap;
+	position: relative;
+}
+
+.info {
+	position: relative;
+	width: 100vw;
+	min-width: 1300px;
+	padding: 0 0 0 70px;
+	height: 950px;
+	overflow: hidden;
+}
+
+.img-woman {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	width: 717px;
+}
+
+.questions {
+	margin: 100px 0 50px;
+	width: 950px;
+	font-family: Bebas;
+	font-size: 100px;
+	line-height: 169px;
+
+	color: #222D33;
+}
+
+.call-center {
+	margin: 0;
+	font-size: 24px;
+	line-height: 33px;
+
+	color: #222D33;
+}
+
+.strong {
+	font-weight: 600;
+}
+
+.input-wrap {
+	display: flex;
+	margin-top: 30px; 
+	flex-direction: column;
+	width: 500px;
+}
+
+.group-element {
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-between;
+}
+
+input {
+	outline: none;
+	border: none;
+	border-bottom: solid 1px #000;
+	height: 30px;
+}
+
+.form-check-input {
+	display: none;
+}
+
+.title-communication-method {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+	margin: 0;
+}
+
+.col{
+	width: 230px;
+}
+
+.special-box {
+	margin-top: 15px;
+	align-items: flex-end;
+	display: flex;
+}
+
+.wrap-communication-method {
+	margin-left: 40px;
+}
+
+.icon {
+	margin-top: 10px;
+}
+
+.submit-section {
+	margin-top: 50px;
+	display: flex;
+	width: 600px;
+}
+
+.submit-button {
+	cursor: pointer;
+	width: 200px;
+	height: 67px;
+	border: none;
+	background: #3A7BE2;
+
+	font-family: Bebas Neue Cyrillic;
+	font-size: 24px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.warning {
+	margin: 0 0 0 30px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.submit-button:disabled {
+	background: rgb(142, 143, 146);
+}
